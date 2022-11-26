@@ -1,10 +1,6 @@
 # aplication-web
 
-#english
 
-personal codes developed in the web application course.
+personal codes developed in the web applications course.
 
-
-#spanish
-
-codigos personales desarrollados en la asignatura de aplicación web.
+códigos personales desarrollados en el curso de aplicaciones web.
