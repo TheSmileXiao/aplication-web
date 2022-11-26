@@ -1,0 +1,25 @@
+.Pelicula {
+    background: rgb(27, 27, 27) 100%;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+}
+
+.image-container {
+	position: relative;
+	transition: transform 0.1s;
+}
+
+.image-container:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+.image-container:hover .overlay {
+	opacity: 1;
+}
+
+h5 {
+    color: white;
+    text-align: center;
+}

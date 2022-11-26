@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="myscript.js"></script>
+        <title>Ejercicio 2</title>
+    </head>
+
+    <body>
+        <img id="titleImg" onclick="contar()" src="http://sso.unileon.es/themes/unileon-metronic/img/main-title.png" alt="imgen inicio unileon" class="titleImg">
+        <h1>Ejercicio 2 de "<span id="myName">Xiao Yang</span>"</h1>
+        <div class="container">
+            <div class="split left"  id="divLeft">
+                <h2>Instrucciones ejercicio 2:</h2>
+                <p>Debes replicar este ejercicio en tres ficheros:</p>
+                <ul>
+                    <li>Fichero indedx.html con el código HTML, es necesario para replicar este mismo contenido</li>
+                    <li>Fichero style.css con el código CSS necesario para dar estilo al ejercicio</li>
+                    <li>Fichero myscript.js con el código JS necesario para permitir al usuario interactuar con la web</li>
+                </ul>
+                <p>Además, debes cumplir los siguientes puntos:</p>
+                <ul>
+                    <li>Utilizar GitHub Classroom para depositar el código fuente</li>
+                    <li>Modificar el encabezado del ejercicio con tu nombre</li>
+                    <li><span id="textChange">color de esta línea debe cambiar a rojo después de 5 segundos, y debe cambiar el texto a :"Ha cambiado!"</span></li>
+                    <li>Contador de clicks en la imagen: <span id="cont">0</span> </li>
+                </ul>
+            </div>
+
+            <div class="split right" id="divRight">
+                <h2>Formulario</h2>
+                <form action="">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" oninput="cambNomTitulo(this)"><br>
+
+                    <label for="FechaNacimiento">Fecha de nacimiento:</label>
+                    <input type="date" id="FechaNacimiento" name="FechaNacimiento" value="dd/mm/aaaa" class="inpuFechaNac" oninput="calculaEdad(this)"><br>
+
+                    <label for="edad">Edad:</label>
+                    <input type="text" id="edad" name="edad" class="inputEdad" disabled><br>
+
+                    <label for="text">Sexo:</label>
+                    <input type="radio" id="hombre" name="sexo" value="Hombre" onclick="colorDivLeft()">
+                    <label for="hombre">Hombre</label><br>
+                    <label for="text">     </label>    
+                    <input type="radio" id="mujer" name="sexo" value="  " onclick="colorDivLeft2()">
+                    <label for="mujer">Mujer</label><br>
+
+                    <label for="text">Conoce HTML5:</label>
+                    <input type="checkbox" id="conoceHTML" name="conoceHTML" value="conoceHTML" onclick="hideImg()"><br>
+                    
+                    <label for="Color">Color favorito:</label>
+                    <input type="color" id="color" name="color" value="#000000" onchange="colorDivRight(this)"><br>
+
+                    <label for="Foto">Foto:</label>
+                    <input type="file" name="file" id="file"><br>
+
+                    <input type="submit" value="Enviar" onclick="enviar()">
+
+                </form>
+            </div>
+        </div>
+        
+    </body>
+
+</html>

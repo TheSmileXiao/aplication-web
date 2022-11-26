@@ -1,0 +1,79 @@
+.PeliHome {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(27, 27, 27) 100%;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+}
+
+.page {
+  height: 100%;
+	background: rgb(27, 27, 27);
+	color: #ffffff;
+}
+
+.izquierda {
+    background-size: cover;
+    background: rgb(27, 27, 27) 100%;
+    flex-direction: column;
+    position: relative;
+    justify-items: center;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  td {
+    letter-spacing: 1px;
+    padding: 5px;
+    text-align: left;
+  }
+  
+  thead th:nth-child(1) {
+    width: 100%;
+  }
+
+  textarea {
+    border-collapse:collapse;
+    resize: none;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-family: arial;
+}
+
+input[type=text], select {
+  width: 80%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px;
+  border-radius: 4px;
+}
+
+tr {
+  text-align: left;
+}
+
+h3 {
+  text-align: center;
+}
+
+a {
+  color: rgb(79, 174, 238);
+}
+
+.select {
+  width: 100%;
+}
+
+.MuiDivider-root {
+  background-color: white;
+  width: 27vw;
+}
+
+.MuiDivider-middle {
+  width: auto;
+}

@@ -1,0 +1,80 @@
+.cineHome {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(27, 27, 27) 100%;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+}
+
+.page {
+	background: rgb(27, 27, 27);
+	color: #ffffff;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    background-color: rgba(56, 66, 197, 0.76);
+}
+
+span {
+    margin-left: 50px;
+    cursor: pointer;
+    color: white;
+}
+
+.navbar{
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    position: fixed;
+    
+    background: linear-gradient(to top, transparent 0%, rgb(0, 0, 0, 0.3) 50%);
+}
+
+.topBar {
+    display: flex;
+    align-items: center;
+    padding: 50px 50px;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    background: linear-gradient(to top, transparent 0%, rgba(45, 82, 184, 0.514) 50%);
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    padding: 0px 50px;
+    top: 0;
+    z-index: 999;
+    background: linear-gradient(to top, transparent 0%, rgb(0, 0, 0, 0.3) 50%);
+}
+
+.pelicula{
+    width: 200px;
+    height: 200px;
+    margin-left: 35px;
+    display: block;
+    background-color: gray;
+    color: white;
+    border: none;
+}
+
+.searchBar {
+    width: 100%;
+    padding-right: 2%;
+}
+
+.bottom {
+    background: linear-gradient(to bottom, transparent 0%, rgba(98, 159, 240, 0.733) 40%);
+}

@@ -1,0 +1,31 @@
+.page {
+    background: rgb(27, 27, 27);
+	color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    background-color: rgba(56, 66, 197, 0.76);
+}
+h4{
+    color: white;
+    text-align: center;
+}
+
+.contenido{
+    display: flex;
+    justify-content: center;
+}
+
+.MuiTextField-root {
+    background-color: white;
+    width: 400px;
+}

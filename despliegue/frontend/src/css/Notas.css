@@ -1,0 +1,22 @@
+input{
+    margin-bottom: 15px;
+}
+
+.containerPrincipal{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2%;
+    border: 1px solid black;
+    background-color: skyblue;
+    width:80%;
+    min-height: 80%;
+    text-align: left;
+}
+.grid{
+    position: absolute;
+    top:20%;
+    left:55%;
+    background: orange;
+}
